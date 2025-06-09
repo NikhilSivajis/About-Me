@@ -1,0 +1,117 @@
+
+.introduction
+{
+    background-color: #FFA8B6;
+    ;
+    padding: 5%;
+
+}
+body
+{
+    margin: 0%;
+}
+
+a.projects{
+    color: #51E2F5;
+    text-decoration: underline;
+}
+a.contact
+{
+    color: #EDF7F6;
+    text-decoration: underline
+}
+    
+ a:visited
+ {
+    text-decoration: none;
+    color: #A28089;
+    
+}    
+h1,h2,h3,h4
+{
+    font-family:   'Abril Fatface', serif;
+}
+p,li
+{
+    font-family:  Poppins, sans-serif;
+}
+
+
+.title, .intro
+{   
+    text-align: center;
+    
+}
+
+
+.body
+{
+    background-color:  #A28089;
+    padding: 3%;
+}
+
+.contact
+{
+    position: absolute ;
+    top: 5px;
+    left: 15px;
+    font-size: 80%;
+}
+
+
+
+.accomplishments
+{
+    margin-left: 60%;
+    background-color:#EDF7F6 ;
+    padding: 1%;
+    border-radius: 10%;
+    width: 30%;
+    
+}
+
+.projects
+{
+    margin-left: 5%;
+    background-color:#EDF7F6 ;
+    padding: 1%;
+    border-radius: 10%;
+    width: 30%;
+}
+
+.hobbies
+{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #9DF9EF ;
+    padding: 1%;
+    border-radius: 5%;
+}
+.skills
+{
+    margin-left: 60%;
+    width: 40%;
+    background-color: #9DF9EF ;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+
+.hobby-description
+{
+    display: flex;
+    align-items: center;
+    gap:700px;
+    flex: 1; max-width: 60%;
+    max-width: 60%;
+}
+
+.hobby-images
+{
+    margin-left: 0%;
+    width: 40%;
+    height: 40%;
+
+}
+
