@@ -60,9 +60,9 @@ p,li
 
 
 
-.accomplishments
+.accomplishments-body
 {
-    margin-left: 60%;
+    margin-left: 35%;
     background-color:#EDF7F6 ;
     padding: 1%;
     border-radius: 10%;
@@ -70,16 +70,27 @@ p,li
     
 }
 
-.projects
+.projects-body
 {
     margin-left: 5%;
+    margin-right: 30%;
     background-color:#EDF7F6 ;
     padding: 1%;
     border-radius: 10%;
     width: 30%;
 }
 
-.hobbies
+.project-images
+{
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10%;
+    
+}
+
+.hobbies-body
 {
     width: 40%;
     margin-top: 5%;
@@ -88,9 +99,9 @@ p,li
     padding: 1%;
     border-radius: 5%;
 }
-.skills
+.skills-body
 {
-    margin-left: 60%;
+    margin-left: 10%;
     width: 40%;
     background-color: #9DF9EF ;
     padding: 1%;
@@ -98,20 +109,42 @@ p,li
 }
 
 
-.hobby-description
+.hobbies,.skills,.projects,.accomplishments
 {
     display: flex;
     align-items: center;
-    gap:700px;
-    flex: 1; max-width: 60%;
-    max-width: 60%;
+
+
+
 }
 
 .hobby-images
 {
-    margin-left: 0%;
+    margin:  5%;
+    margin-left: 20%;
+    margin-top: 10%;
     width: 40%;
-    height: 40%;
+    height: 30%;
+    border-radius: 15%;
 
 }
 
+.skills-images
+{
+    width:80%;
+    height: 80%;
+    margin-left: 0%;
+    border-radius: 15%;
+}
+
+.selfie
+{
+    border-radius: 70%;
+}
+
+
+.accomplishments-images
+{
+    border-radius: 15%;
+    margin-left: 10%;
+}
